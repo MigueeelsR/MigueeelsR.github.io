@@ -1,0 +1,49 @@
+h1 {
+    background-color: #31456b;
+    color: white;
+    text-align:center;
+    margin: 0 auto;
+}
+body{
+    background-color: antiquewhite;
+}
+nav {
+    text-align:center;
+    margin: 25px;
+    padding: 10px;
+    
+}
+#row {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.images{
+    border-style:solid;
+    border-width: 4px;
+    border-color:#31456b;
+    border-radius: 50px;
+    object-fit: cover;
+}
+#greeting{
+    text-align: center;
+    margin-bottom:60px;
+}
+#quote{
+    text-align: center;
+}
+#disclaimer{
+    text-align: center;
+}
+#names{
+    text-align: center;
+}
+.links {
+    background-color: #31456b;
+    border: solid 3px ;
+    border-radius:20px;
+    padding: 15px;
+    background-color: #31456b;
+    color: white;
+}
