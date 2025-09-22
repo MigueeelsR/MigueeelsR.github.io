@@ -1,0 +1,53 @@
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+body{
+color: black;
+background-image: url("https://markwconnolly.wordpress.com/wp-content/uploads/2023/05/pay-1036469_640.jpg");
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    margin: 26;
+    padding: 10px;
+    background-color: gray;
+    justify-content: space-around;
+}
+
+.box {
+background-color: blue;
+padding: 20px;
+border-radius: 30px;
+box-shadow: 3px 2px 3px black;
+width: max-content;
+margin: 0 auto;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+#guessBox {
+font-size: 26px;
+background-color: white;
+border-radius: 10px;
+}
+
+#guessBtn {
+font-size: 20px;
+color: blue;
+background-color: white;
+border-radius: 10px;
+}
