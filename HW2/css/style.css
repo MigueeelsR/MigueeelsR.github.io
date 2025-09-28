@@ -1,0 +1,44 @@
+body {
+    color: white;
+    background-image: url("https://st2.depositphotos.com/6700668/10160/v/950/depositphotos_101600924-stock-illustration-seamless-vector-pattern-of-gold.jpg");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#playBtn {
+    font-size: 20px;
+    color: gold;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+#resetBtn {
+    font-size: 20px;
+    color: gold;
+    background-color: gray;
+    border-radius: 10px;
+}
