@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.qbox {
+    outline: solid 2px black;
+    width: max-content;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius:10px;
+}
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+}
+#submitBtn {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}

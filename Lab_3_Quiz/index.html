@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3: Quiz</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
+</head>
+<body>
+    <h1>Lab 3: Football Quiz</h1>
+
+
+    <div class="qbox">
+        1. How many points is a touchdown? <br>
+        <label>
+            <input id="numInput" type="number" min="0">
+        </label>
+    </div>
+    <br>
+    <div class="qbox">
+                2. Who had the number 1 pick in this year's draft? <br>
+        <label>
+            <select id="answer2">
+                <option value="Bears">Bears</option>
+                <option value="Titans">Titans</option>
+                <option value="Jaguars">Jaguars</option>
+                <option value="Dodgers">Dodgers</option>
+            </select>
+        </label>
+    </div>
+    <br>
+    <div class="qbox">
+        3. Who won SuperBolw LVIII (last year)<br>
+        <div id="q3Options">
+        
+        </div>
+    </div>
+    <br>
+    <div class="qbox">
+        4. What does NFL stand for? <br>
+        <input id="textInput" type="text" placeholder="Answer here">
+    </div>
+    <br><br>
+    <button id="submitBtn">Submit Quiz</button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
