@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Sign Up Page </title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <h1> Sign Up </h1>
+
+    <!-- <form></form> must surround all form elements from start to end to submit form to server-->
+    <form id="signupForm" action="welcome.html">
+        First Name:<input type="text" name="fName"><br>
+        Last Name: <input type="text" name="lName"><br>
+        Gender: <br>
+        <input type="radio" name="gender" value="m">Male
+        <input type="radio" name="gender" value="f">Female<br>
+        Zip Code: <input type="text" id="zip" name="zip"><br>
+        <span id=”zipError”></span>
+        <!-- <span displays right on the same line -->
+        City: <span id="city"></span> <br>
+        Latitude: <span id="latitude"></span> <br>
+        Longitude: <span id="longitude"></span><br><br>
+
+        State:
+        <select id="state" name="state">
+            <option>Select One</option>
+            <option value="ca">California</option>
+            <option value="ny">New York</option>
+            <option value="tx">Texas</option>
+        </select> <br>
+
+
+        Select a County: <select id="county"></select><br>
+
+
+        Desired Username:
+        <input type="text" id="username" name="username"><br>
+        <span id="usernameError"></span><br>
+
+
+        <!-- Password: <input type="password" id="password" name="password"><span id=”suggestedPwd”></span> <br> -->
+
+        <!-- Password: <input type="password" id="password"><span id=”password"></span> <br> -->
+
+
+        Password: <input id="password" type="password" name="password"><span id="suggestedPwd"> </span><br>
+
+        Type Password Again: <input type="password" id="retypePassword" name="retypePassword"><br>
+
+        <span id=”passwordError”></span>
+
+        <input type="submit" value="Sign up!">
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
